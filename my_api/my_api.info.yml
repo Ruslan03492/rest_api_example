@@ -1,0 +1,9 @@
+name: My API
+description: Module for My API.
+package: API
+
+type: module
+core: 8.x
+
+dependencies:
+  - rest

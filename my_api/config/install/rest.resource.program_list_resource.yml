@@ -1,0 +1,9 @@
+id: program_list_resource
+plugin_id: program_list_resource
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - basic_auth

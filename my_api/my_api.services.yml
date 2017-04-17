@@ -1,0 +1,4 @@
+services:
+  my_api.fetcher:
+    class: Drupal\my_api\MyApiFetcher
+    arguments: ['@entity_type.manager']
